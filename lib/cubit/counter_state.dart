@@ -9,3 +9,8 @@ class CounterBIncrementState extends CounterState
 {
 
 }
+
+class CounterRestState extends CounterState
+{
+
+}

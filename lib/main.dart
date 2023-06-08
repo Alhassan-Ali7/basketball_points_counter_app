@@ -225,7 +225,9 @@ class HomePage extends StatelessWidget {
                 height: 50.0,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  BlocProvider.of<CounterCubit>(context).TeamRest();
+                },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFDC7500),
                   minimumSize: const Size(
